@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", serif;
+    width: 100%;
+    /* background-image: url(../IMAGE/BACKGROUND.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ; */
+    background: black;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid white; */
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+
+.content .left img{
+    width: 550px;
+    height: 150px;
+}
+
+.content .right{
+    width: 500px;
+    height: 650px;
+    /* background: rgba(255, 255, 255, 0.833); */
+    border-radius: 10px;
+    border: 3px solid white;
+    font-family: "Gotham", sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* box-shadow: 100px 100px 100px 100px rgb(47, 177, 11); */
+
+}
+
+.top{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid white; */
+}
+
+.top p{
+    font-size: 30px;
+}
+
+.right .accountlogin{
+    width: 100%;
+    height: 300px;
+    display: flex; 
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.accountlogin li{
+    width: 70%;
+    height: 50px;
+    display: flex; 
+    border-radius: 50px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+    font-size: medium;
+    /* margin-left: 5%; */
+}
+
+.accountlogin li:hover{
+    width: 70%;
+    height: 50px;
+    display: flex; 
+    border-radius: 50px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    font-size: medium;
+    /* margin-left: 5%; */
+    background: #00ce18b4;
+    transition: .2s ease-in-out;
+    transform: scale(1.05);
+    color: #ffffff;
+}
+
+.accountlogin li p{
+    /* margin-left: 5%; */
+    font-size: 17px;
+    width: 90%;
+}
+
+.accountlogin li i{
+    font-size: 20px;
+    width: 15%;
+    margin-left: 5%;
+    /* border: 1px solid white; */
+}
+
+.accountlogin hr{
+    color: rgb(255, 255, 255);
+    padding-left: 5%;
+    height: 1%;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    margin-top: 1%;
+}
+
+.right .form{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    justify-content: space-evenly;
+}
+
+.right .form input[type="text"] {
+    height: 40px;
+    width: 350px;
+    outline: none;
+    border: 3.1px solid white;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+    font-family: "Gotham", sans-serif;
+}
+
+.right .form input[type="submit"] {
+    height: 40px;
+    width: 367px;
+    outline: none;
+    /* border: 3.2px solid #00ce18b4; */
+    border: none;
+    background: rgb(255, 255, 255);
+    color: #00a513;
+    font-size: 15px;
+    border-radius: 50px;
+    font-family: "Gotham", sans-serif;
+}
+
+.right .form input[type="submit"]:hover {
+    height: 40px;
+    width: 367px;
+    outline: none;
+    border: 3.2px solid #00ce18b4;
+    background: #00ce18b4;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 100px;
+    transition: .2s ease-in-out;
+    transform: scale(1.05);
+    font-family: "Gotham", sans-serif;
+}
+
+.right .form input::placeholder{
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+    font-family: "Gotham", sans-serif;
+}
+
+.signuptext{
+    /* margin-top: 2%; */
+    font-size: 15px;
+    justify-content: space-between;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
+    width: 73%;
+}
+
+.signuptext a{
+    padding-left: 2%;
+    color: white;
+}
+
+.signuptext p{
+    padding-left: 2%;
+    color: rgb(255, 252, 252);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .content {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .content .left img {
+        width: 300px;
+        height: 100px;
+    }
+
+    .content .right {
+        width: 90%;
+        height: auto;
+        min-height: 600px;
+        margin: 20px 0;
+    }
+
+    .right .form {
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .right .form input[type="text"],
+    .right .form input[type="submit"] {
+        width: 80%;
+        max-width: 350px;
+    }
+
+    .accountlogin li {
+        width: 80%;
+    }
+
+    .accountlogin li:hover {
+        transform: scale(1.01);
+        width: 80%;
+    }
+
+    .accountlogin hr {
+        width: 80%;
+    }
+
+    .signuptext {
+        width: 80%;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .signuptext a,
+    .signuptext p {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .content .left img {
+        width: 300px;
+        height: 80px;
+    }
+
+    .top p {
+        font-size: 24px;
+    }
+
+    .accountlogin li p {
+        font-size: 15px;
+    }
+
+    .accountlogin li i {
+        font-size: 18px;
+    }
+}
