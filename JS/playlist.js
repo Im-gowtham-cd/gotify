@@ -61,6 +61,30 @@ document.addEventListener('DOMContentLoaded', () => {
             artist: " Anirudh Ravichander",
             path: "../AUDIO/Velaikkaran - Karuthavanlaam Galeejaam Video _ Sivakarthikeyan, Nayanthara _ Anirudh.mp3",
             cover: "../IMAGE/KG.jpg"
+        },
+        {
+            title: "What is Love",
+            artist: "Twice",
+            path: "../AUDIO/TWICE What is Love MV.mp3",
+            cover: "../IMAGE/KG.jpg"
+        },
+        {
+            title: "Super Tuna",
+            artist: "Jin",
+            path: "../AUDIO/_ _Jin_ ___ __ _Super Tuna__ Special Video.mp3",
+            cover: "../IMAGE/KG.jpg"
+        },
+        {
+            title: "Fake Love",
+            artist: "MDP",
+            path: "../AUDIO/BTS _______ FAKE LOVE Orchestral Cover.mp3",
+            cover: "../IMAGE/KG.jpg"
+        },
+        {
+            title: "GO GO",
+            artist: "BTS",
+            path: "../AUDIO/Bulletproof Boy Scouts _BTS_ _ Go _Go Go_ than worrying _BTS COUNTDOWN_171012.mp3",
+            cover: "../IMAGE/KG.jpg"
         }
     ];
     
