@@ -11,7 +11,7 @@ loginForm.addEventListener('submit', (e) => {
     const usernameInput = document.getElementById('username').value;
     
     if (checkUsername(usernameInput)) {
-        window.location.href = 'HTML/playlist.html';
+        window.location.href = 'playlist.html';
     } else {
         alert('Access denied. Incorrect username.');
     }
