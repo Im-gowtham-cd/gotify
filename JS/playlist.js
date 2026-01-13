@@ -85,6 +85,18 @@ document.addEventListener('DOMContentLoaded', () => {
             artist: "BTS",
             path: "../AUDIO/Bulletproof Boy Scouts _BTS_ _ Go _Go Go_ than worrying _BTS COUNTDOWN_171012.mp3",
             cover: "../IMAGE/KG.jpg"
+        },
+        {
+            title: "Paradise",
+            artist: "Coldplay",
+            path: "../AUDIO/Coldplay _ Paradise _Official Video_.mp3",
+            cover: "../IMAGE/KG.jpg"
+        },
+        {
+            title: "Standing Next to You",
+            artist: "BTS",
+            path: "../AUDIO/__ _ Standing Next to You ______ EP_823 Mnet 231116 __.mp3",
+            cover: "../IMAGE/KG.jpg"
         }
     ];
     
