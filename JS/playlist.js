@@ -94,8 +94,20 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             title: "Standing Next to You",
-            artist: "BTS",
+            artist: "Jungkook",
             path: "../AUDIO/__ _ Standing Next to You ______ EP_823 Mnet 231116 __.mp3",
+            cover: "../IMAGE/KG.jpg"
+        },
+        {
+            title: "Back to Friends",
+            artist: "Sombr",
+            path: "../AUDIO/sombr _ back to friends _official video_.mp3",
+            cover: "../IMAGE/KG.jpg"
+        },
+        {
+            title: "Bitter Sweet Symphony",
+            artist: "The Verve",
+            path: "../AUDIO/The Verve _ Bitter Sweet Symphony.mp3",
             cover: "../IMAGE/KG.jpg"
         }
     ];
